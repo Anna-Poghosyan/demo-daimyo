@@ -1,0 +1,29 @@
+.popup{
+    width: 400px;
+    height: 150px;
+    background-color: aliceblue;
+    box-shadow: 2px 2px 6px gray;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: calc(50% - 75px);
+}
+.popupP{
+    text-align: center;
+    padding: 30px 20px;
+}
+.close{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 10px;
+    background-color: #12ccdb;
+    padding: 2px 12px;
+    border: none;
+    color: white;
+}
+.close:hover{
+    background-color: red;
+}
