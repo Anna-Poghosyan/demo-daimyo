@@ -27,6 +27,7 @@ const DialogsContanier = React.lazy(() => import('./components/Dialogs/DialogsCo
 
 function withRouter(Component) {
   
+
   function ComponentWithRouterProp(props) {
       let location = useLocation();
       let navigate = useNavigate();
